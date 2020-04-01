@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 require 'pry'
-gem 'ssh-gemspec', '~> 1.0'
 require 'rest-client'
 require 'json'
 
