@@ -1,0 +1,37 @@
+
+
+class Character
+  
+  attr_accessor :char_id, :name, :birthday, :occupation, :img, :status, :appearance, :nickname, :portrayed, :url
+  
+  @@all = []
+  
+  def initialize(char_id, name, birthday, occupation, img, status, appearance, nickname, portrayed, url)
+    @char_id = char_id
+    @name = name
+    @birthday = birthday
+    @occupation = occupation
+    @img = img
+    @status = status
+    @appearance = appearance
+    @nickname = nickname
+    @portrayed = portrayed
+    @url = url
+    @@all << self
+  end
+  
+  def self.all
+    @@all
+  end
+
+class Characters
+  attr_accessible :char_id, :name, :birthday, :occupation, :img, :status, :appearance, :nickname
+  , :portrayed, :url, :@@all
+  
+  validates :char_id, :name, :birthday, :occupation, :img, :status, :appearance, :nickname
+  , :portrayed, :url, :@@all
+  
+  validates :char_id, :content, :presence => true
+  validates :char_id, :uniqueness => true
+end
+

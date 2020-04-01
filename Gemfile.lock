@@ -1,0 +1,10 @@
+PATH
+  remote: .
+  specs:
+    breaking_bad_cli (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  breaking_bad_cli!

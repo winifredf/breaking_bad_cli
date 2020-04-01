@@ -14,6 +14,8 @@ Gem::Specification.new do |spec|
 
   spec.metadata["allowed_push_host"] = "http://mygemserver.com"
 
+  spec.metadata["allowed_push_host"] = "http://mygemserver.com"
+  502805
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://www.breakingbadapi.com/api/characters"
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
