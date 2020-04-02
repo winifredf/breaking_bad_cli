@@ -7,6 +7,7 @@ class CLI
   end
   
   def choose_a_character
-    
+    puts ""
+    puts "Which Character Would you like additional information?"
   end
 end
