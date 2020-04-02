@@ -1,7 +1,7 @@
 class CLI
   
   def call
-    API.new
-    puts "our program actually runs!"
+    API.new.call_api
+    puts "Welcome to the Breaking Bad Character Finder!"
   end
 end
