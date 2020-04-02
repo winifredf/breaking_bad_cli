@@ -1,4 +1,8 @@
-source "https://rubygems.org"
+#source "https://rubygems.org"
+
+
+gem 'rubygems-update', '~> 3.1', '>= 3.1.2'
+gem 'dry-validation', '~> 1.5'
 
 require 'pry'
 require 'rest-client'
