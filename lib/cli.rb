@@ -5,4 +5,8 @@ class CLI
     puts "Welcome to the Breaking Bad Character Finder!"
     choose_a_character
   end
+  
+  def choose_a_character
+    
+  end
 end
